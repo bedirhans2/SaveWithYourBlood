@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "384163260489",
+    "firebase_url": "https://kaninla-kurtar-79ecf.firebaseio.com",
+    "project_id": "kaninla-kurtar-79ecf",
+    "storage_bucket": "kaninla-kurtar-79ecf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384163260489:android:d2911ec3ea7ca1f6",
+        "android_client_info": {
+          "package_name": "com.example.bedirhan.kaninlakurtar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384163260489-rktq31ol8qq6306ftn3d21hen8cu2usd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bedirhan.kaninlakurtar",
+            "certificate_hash": "fe2870f6083a9d234d78bc1b060f15b6a6dd61d2"
+          }
+        },
+        {
+          "client_id": "384163260489-2p8bbh3402igjabs14vdgkhv5k3neq0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdDViHTgbmjcZTbah22DTGTxiUR70h660"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384163260489-2p8bbh3402igjabs14vdgkhv5k3neq0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_ilanver" type="id" />
+    <item name="cardview" type="id">a1</item>
+</resources>

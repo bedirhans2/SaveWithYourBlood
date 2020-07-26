@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Giriş Yap"
+        android:icon="@drawable/ic_person_pin_black_24dp"
+        android:id ="@+id/menu_login"
+        android:showAsAction="always" />
+
+    <item android:title="Üye Ol"
+        android:icon="@drawable/ic_person_add_black_24dp"
+        android:id ="@+id/menu_register"
+        android:showAsAction="always" />
+
+    <item android:title="Uygulama Hakkkında"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:id ="@+id/menu_about" />
+
+    <item android:title="Uygulamadan Çık"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:id ="@+id/menu_exit" />
+</menu>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kaninlabck"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="18dp"
+            android:text="  Giriş Ekranına Hoşgeldiniz"
+            android:textColor="#000000"
+            android:textSize="22dp"
+            android:typeface="monospace"
+            app:fontFamily="monospace" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="82dp"
+            android:text="  Lütfen E-mail ve Parolanızı giriniz"
+            android:textColor="@android:color/background_dark"
+            android:textSize="15sp"
+            android:typeface="monospace"
+            app:fontFamily="monospace" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_above="@+id/pass"
+            android:layout_marginBottom="-236dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="E-Mail" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="236dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="Parola" />
+
+        <Button
+            android:id="@+id/btn_giris"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_above="@+id/btn_geri2"
+            android:text="Giriş Yap" />
+
+        <Button
+            android:id="@+id/btn_geri2"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="114dp"
+            android:text="Ana Menüye Dön" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

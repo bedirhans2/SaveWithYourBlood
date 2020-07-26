@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kaninlabck"
+    tools:context=".AboutActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tw_about2"
+            android:layout_width="336dp"
+            android:layout_height="161dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="156dp"
+            android:text="This application has been developed by AHMET BEDİRHAN SAĞIR and MOHAMMED ALRAWI.            (C) 2019"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:typeface="monospace"
+            app:fontFamily="monospace"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="226dp" />
+
+        <TextView
+            android:id="@+id/tw_about"
+            android:layout_width="340dp"
+            android:layout_height="161dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
+            android:text="Bu uygulama AHMET BEDİRHAN SAĞIR ve MOHAMMED ALRAWI tarafından yapılmıştır.                      (C) 2019"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:typeface="monospace"
+            app:fontFamily="monospace"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="36dp" />
+
+        <Button
+            android:id="@+id/btn_mainact"
+            android:layout_width="275dp"
+            android:layout_height="84dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="57dp"
+            android:text="ANA MENÜ"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="431dp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

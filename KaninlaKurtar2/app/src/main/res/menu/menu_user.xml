@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="İlan Ver"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_edit_black_24dp"
+        android:id ="@+id/menu_ilanver" />
+
+    <item android:title="İlanlarım"
+        android:showAsAction="ifRoom"
+        android:id ="@+id/menu_ilanlarim" />
+
+    <item android:title="İlan Gör"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:id ="@+id/menu_ilangor" />
+
+    <item android:title="Bilgi Güncelle"
+        android:showAsAction="ifRoom"
+        android:id ="@+id/menu_update" />
+
+    <item android:title="Oturumu Kapat"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:id ="@+id/menu_logout" />
+</menu>
